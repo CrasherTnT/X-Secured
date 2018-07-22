@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222222"
+    tools:context="com.journaldev.passingdatabetweenfragments.fragmentInformation">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="@string/username"
+        android:textColor="#FF8866"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eUser"
+        android:layout_centerHorizontal="true"
+        android:text="@string/email_address"
+        android:textColor="#FF8866"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/eUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/holo_green_light" />
+
+    <EditText
+        android:id="@+id/eEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/eUser"
+        android:layout_alignStart="@+id/eUser"
+        android:layout_below="@+id/email"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/holo_green_light" />
+
+    <Button
+        android:id="@+id/buttonFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/eEmail"
+        android:layout_alignStart="@+id/eEmail"
+        android:layout_below="@+id/eEmail"
+        android:layout_marginTop="20dp"
+        android:background="#FF6644"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:text="@string/buttonFinish" />
+
+    <Button
+        android:id="@+id/buttonClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonFinish"
+        android:layout_alignBottom="@+id/buttonFinish"
+        android:layout_alignEnd="@+id/eEmail"
+        android:layout_alignRight="@+id/eEmail"
+        android:background="#FF6644"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:text="@string/clear" />
+
+</RelativeLayout>

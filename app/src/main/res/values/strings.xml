@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">X-Secured</string>
+    <string name="password_strength_caption">Password Strength: {0}</string>
+    <string name="password_strength_weak">Weak</string>
+    <string name="password_strength_medium">Medium</string>
+    <string name="password_strength_strong">Strong</string>
+    <string name="password_strength_very_strong">Very Strong</string>
+    <string name="textview" />
+    <string name="generateButton">Generate</string>
+    <string name="textview2">Strength Checker</string>
+    <string name="title">Strength Checker</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="finish">finish</string>
+    <string name="weak">weak</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="test">TextView</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="encryption">Encryption</string>
+    <string name="decryption">Decryption</string>
+
+
+    <string name="username">Username:</string>
+    <string name="email_address">Email Address:</string>
+
+
+    <string name="encrypt">Encrypt</string>
+    <string name="decrypt">Decrypt</string>
+
+
+    <string name="buttonFinish">Finish</string>
+
+
+    <string name="outputusername">Username:</string>
+    <string name="outputemail_address">Email Address:</string>
+    <string name="password">Password:</string>
+    <string name="encrypted_password">Encrypted Password:</string>
+    <string name="level_of_strength">Level of Strength:</string>
+    <string name="decryption_difficulty">Decryption Difficulty:</string>
+    <string name="summary">SUMMARY</string>
+    <string name="o1">TextView</string>
+    <string name="o2">TextView</string>
+    <string name="o3">TextView</string>
+    <string name="o4">TextView</string>
+    <string name="o5">TextView</string>
+    <string name="o6">TextView</string>
+    <string name="clear">Clear</string>
+    <string name="output">OUTPUT</string>
+    <string name="message">Message</string>
+    <string name="save">Save</string>
+    <string name="todo3">TODO</string>
+    <string name="created_by">CREATED BY</string>
+    <string name="sherwyne_r_costiniano">Sherwyne R. Costiniano</string>
+    <string name="itmawe_201">ITMAWE 201</string>
+</resources>

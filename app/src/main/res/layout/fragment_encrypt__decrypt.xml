@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222222"
+    tools:context="com.journaldev.passingdatabetweenfragments.fragmentEncrypt_Decrypt">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/encrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="@string/encryption"
+        android:textColor="#FF8866"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/outputEncrypt"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/encrypt"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="26sp" />
+
+    <Button
+        android:id="@+id/buttonEncrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/outputEncrypt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:background="#FF6644"
+        android:text="@string/encrypt"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/finalOutputEncrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonEncrypt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="@string/output"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light" />
+
+</RelativeLayout>

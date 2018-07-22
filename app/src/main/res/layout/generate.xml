@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/generate"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222222"
+    tools:context="com.spg.crasherproduction.spg.MainActivity$PlaceholderFragment">
+
+
+    <TextView
+        android:id="@+id/generateOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="monospace"
+        android:text="@string/textview"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="36sp"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/generateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/generateOutput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:background="#FF6644"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:text="@string/generateButton" />
+
+</RelativeLayout>
